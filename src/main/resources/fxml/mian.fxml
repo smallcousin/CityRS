@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane prefHeight="529.0" prefWidth="777.0" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.rs.Main">
+   <children>
+      <Accordion layoutX="76.0" layoutY="223.0" />
+      <SplitPane dividerPositions="0.29797979797979796" layoutY="130.0" prefHeight="434.0" prefWidth="776.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ListView fx:id="listview" layoutX="1.0" layoutY="36.0" prefHeight="396.0" prefWidth="200.0" />
+                  <TextField layoutX="55.0" layoutY="6.0" prefHeight="26.0" prefWidth="152.0" />
+                  <Button layoutX="1.0" layoutY="-2.0" minWidth="47.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="47.0" text="搜索" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <WebView fx:id="web" layoutX="-3.0" layoutY="-2.0" prefHeight="434.0" prefWidth="546.0" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+       <Pane prefHeight="135" prefWidth="777.0" style="-fx-background-image: url('/icons/img_3.png');">
+           <Pane prefHeight="54.0" prefWidth="777.0">
+               <children>
+                   <Text id="title" fill="#221005" layoutX="28.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 25;" text="城市遥感应用" wrappingWidth="150.0" />
+               <Separator layoutX="-3.0" layoutY="58.0" prefHeight="5.0" prefWidth="777.0" />
+               </children>
+           </Pane>
+           <Separator layoutX="1.0" layoutY="82.0" prefHeight="5.0" prefWidth="776.0" />
+           <Pane id="buttonMenu1" layoutX="-2.0" layoutY="58.0" prefHeight="26.0" prefWidth="776.0">
+               <children>
+                   <Button layoutX="59.0" layoutY="2.0" mnemonicParsing="false" text="Button" />
+                   <Button layoutX="152.0" layoutY="2.0" mnemonicParsing="false" text="Button" />
+                   <Button layoutX="244.0" layoutY="2.0" mnemonicParsing="false" text="Button" />
+                   <Button layoutX="342.0" layoutY="2.0" mnemonicParsing="false" text="Button" />
+                   <Button layoutX="432.0" layoutY="2.0" mnemonicParsing="false" text="Button" />
+                   <Button layoutX="526.0" layoutY="2.0" mnemonicParsing="false" text="Button" />
+               </children>
+           </Pane>
+           <Pane id="buttonMenu2" layoutX="1.0" layoutY="87.0" prefHeight="45.0" prefWidth="776.0">
+               <children>
+                   <Button layoutX="22.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="66.0" text="Button" />
+                   <Button layoutX="124.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="66.0" text="Button" />
+                   <Button layoutX="219.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="66.0" text="Button" />
+                   <Button layoutX="314.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="66.0" text="Button" />
+                   <Button layoutX="413.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="66.0" text="Button" />
+                   <Button layoutX="508.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="66.0" text="Button" />
+                   <Button layoutX="595.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="66.0" text="Button" />
+                   <Button layoutX="696.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="66.0" text="Button" />
+               </children>
+           </Pane>
+       </Pane>
+   </children>
+</AnchorPane>

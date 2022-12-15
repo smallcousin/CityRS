@@ -1,0 +1,61 @@
+#listview{
+        -fx-background-color: #fafdff;
+        -fx-background-radius: 10;
+        -fx-border-radius: 10;
+        -fx-border-color: rgb(175, 168, 168);
+        -fx-border-width: 1.5;
+}
+#listview .list-cell{
+        -fx-image: url("/icons/buildings.png");
+        -fx-background-color: #fafdff;
+        -fx-border-color: rgb(227, 227, 223);
+        -fx-alignment: center;
+        -fx-font-size: 13px;
+        -fx-font-family: "Meiryo UI";
+}
+#listview .list-cell:hover{
+        -fx-background-color: rgb(232, 228, 222);;
+}
+#listview .list-cell:selected{
+        -fx-background-color: rgb(93, 133, 234);
+}
+/*#title{*/
+/*        -fx-font-weight: 25;*/
+/*}*/
+.button{
+        -fx-background-color:
+                #c3c4c4,
+                linear-gradient(#d6d6d6 50%, white 100%),
+                radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+        -fx-background-radius: 30;
+        -fx-background-insets: 0,1,1;
+        -fx-text-fill: black;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+#buttonMenu1 .button {
+        -fx-background-color:
+                #c3c4c4,
+                linear-gradient(#d6d6d6 50%, white 100%),
+                radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+        -fx-background-radius: 30;
+        -fx-background-insets: 0,1,1;
+        -fx-text-fill: black;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+#buttonMenu1 .button:selected{
+        -fx-background-color:
+                rgb(93, 133, 234),
+                linear-gradient(#3c65ce 50%, white 100%),
+                radial-gradient(center 50% -40%, radius 200%, #5d85ea 45%, rgba(230,230,230,0) 50%);
+}
+#buttonMenu2 .button{
+        -fx-background-color:
+                #c3c4c4,
+                linear-gradient(#d6d6d6 50%, white 100%),
+                radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+        -fx-background-radius: 30;
+        -fx-background-insets: 0,1,1;
+        -fx-text-fill: black;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+
+}
